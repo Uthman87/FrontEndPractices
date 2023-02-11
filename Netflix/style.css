@@ -1,0 +1,22 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 2px;
+    color: whitesmoke;
+  }
+  
+  .card {
+    height: 100px;
+    background: #b7111b;
+    padding: 10px 0 10px 10px;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  h1 {
+    text-shadow: 5px 3px 3px black;
+  }
+  

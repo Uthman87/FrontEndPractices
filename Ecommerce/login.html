@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/loginstyle.css">
+    <title>WELCOME | Login</title>
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <form>
+            <input type="text" name="u" id="username" placeholder="Username" required="required" />
+            <input type="password" name="p" id="password" placeholder="Password" required="required" />
+            <button onclick="getInfo()" type="button" class="btn btn-primary btn-block btn-large">Let me in.</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+    <script src="src/data.js"></script>
+    <script src="src/login.js"></script>
+</body>
+</html>
